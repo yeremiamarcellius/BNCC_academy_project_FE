@@ -1,0 +1,59 @@
+.header {
+    position: fixed;
+    width: 100%;
+    min-height: auto;
+    top: 0;
+    z-index: 12;
+}
+
+.header-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f2f2f2;
+    padding: 22px 40px;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 15px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .left-side {
+        flex-direction: column;
+    }
+    .header-top {
+        flex-direction: column;
+        padding: 11px 20px;
+    }
+}
+
+.btnAuth {
+    padding: 10px 16px;
+    background: #4b3786;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.btnAdd {
+    display: flex;
+    margin: 0 5px;
+    padding: 10px 16px;
+    background: #4b3786;
+    color: #fff;
+    border-radius: 40px;
+}
+
